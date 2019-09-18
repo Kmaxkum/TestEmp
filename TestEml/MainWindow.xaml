@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestEml.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestEml"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Content="Изменить статус замка" Click="Button_Click_Lock" x:Name="button"></Button>
+        <TextBlock x:Name="textBlockLock"></TextBlock>
+        <Button Content="Изменить статус питания" Click="Button_Click_Power" x:Name="button1"></Button>
+        <TextBlock x:Name="textBlockPower"></TextBlock>
+        <Button Content="Изменить статус интернета" Click="Button_Click_Net" x:Name="button2"></Button>
+        <TextBlock x:Name="textBlockNet"></TextBlock>
+        <Button Content="Отправить состояние" Click="Button_Click_Request" x:Name="button3"></Button>
+        <TextBlock x:Name="textBlockReq"></TextBlock>
+    </StackPanel>
+</Window>
